@@ -1,0 +1,191 @@
+*
+{
+    box-sizing: border-box;
+    color: white;
+}
+body {
+    background-color: black;
+    margin : 1rem;
+    font-family: Roboto, monospace;
+}
+nav {
+    padding-right: 1rem;
+}
+nav a {
+    padding : 1rem;
+    text-decoration: none;
+    color:white;
+    font-weight: bolder;
+    font-size: large;
+}
+
+main {
+    margin-top: 1rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+a {
+    color: tomato;
+}
+
+h1 {
+    width: 45%;
+    font-size: larger;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 5rem;
+    font-size: x-large;
+}
+
+#technologies {
+    width: 100%;
+    
+}
+
+#box {
+    width: 220px;
+    height: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black!important;
+    cursor: pointer;
+    
+}
+
+#boxes img {
+    width: 100px;
+    margin-top: 10px;
+}
+.html {
+    background-color: #e34c26;
+}
+.html:hover {
+    background-color: #e34c26DD;
+}
+
+.css {
+    background-color: #2965f1; 
+}
+
+.css:hover {
+    background-color: #2965f1DD; 
+}
+
+.java-script {
+    background-color: #f7df1e;
+}
+
+.java-script:hover {
+    background-color: #f7df1eDD;
+}
+
+.vue {
+    background-color: #41B883;
+}
+
+.vue:hover {
+    background-color: #41B883DD;
+}
+
+.symfony {
+    background-color: #1f2938;
+}
+
+.symfony:hover {
+    background-color: #1f2938DD;
+}
+
+.bootstrap {
+    background-color: #563d7c;
+}
+
+.bootstrap:hover {
+    background-color: #563d7cDD;
+}
+
+#contact {
+    width: 100%;
+}
+
+.contact {
+    width: 50%;
+}
+
+.social {
+    width: 50%;
+    margin-left: 60px;;
+}
+
+.social p img{
+    width: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#email {
+    background-color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: white;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#message {
+    background-color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: white;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.label {
+    margin-right: 20px;
+}
+
+.submit-button {
+    background-color: black;
+    border: none;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+/* to do:
+
+- zmniejszyć margin-top w awatarze
+
+
+/* Media Queries ------------------ */
+
+@media (max-width: 1024px) {
+
+main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#contact {
+    flex-direction: column!important;
+    justify-content: flex-start;
+}
+
+.contact {
+    width: 100%;
+}
+
+.social {
+    margin-left: 0px;
+    width: 100%;
+}
+
+}
