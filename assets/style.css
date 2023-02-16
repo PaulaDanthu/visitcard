@@ -41,6 +41,10 @@ h2 {
     font-size: x-large;
 }
 
+#welcome img {
+    width: 300px;
+}
+
 #technologies {
     width: 100%;
     
